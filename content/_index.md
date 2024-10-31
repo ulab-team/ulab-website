@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'uLab'
 date: 2023-10-24
 type: landing
 
@@ -10,17 +10,17 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: Urban Analytics and Interventions Research Lab
+      text: A research lab advancing urban intelligibility
       primary_action:
-        text: Get Started
+        text: Enter lab
         url: https://hugoblox.com/templates/
         icon: rocket-launch
       secondary_action:
-        text: Read the docs
+        text: About us
         url: https://docs.hugoblox.com
       announcement:
-        text: "Announcing the release of version 1."
+        text: "Transferred from a HKUrbanLab"
         link:
           text: "Read more"
           url: "/blog/"
