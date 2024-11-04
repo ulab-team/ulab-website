@@ -8,7 +8,7 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: hero
+  - block: intro
     content:
       title: Urban Analytics and Interventions Research Lab
       text: A research lab advancing urban intelligibility
@@ -31,27 +31,24 @@ sections:
       # For full-screen, add `min-h-screen` below
       css_class: "dark"
       background:
-        color: "navy"
+        color: "beige"
         image:
           # Add your image background to `assets/media/`.
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-  - block: stats
+  - block: research-areas
     content:
       items:
-        - statistic: "1M+"
+        - area: "Transport"
           description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
+            Urban rail and health outcomes
+        - area: "Housing"
           description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
+            Urban renewal and health outcomes
+        - area: "Public space"
           description: |
-            Discord community  
-            for support
+            Street experiments for people-centric transition
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
