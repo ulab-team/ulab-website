@@ -8,7 +8,7 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: intro
+  - block: hero
     content:
       title: Urban Analytics and Interventions Research Lab
       text: A research lab advancing urban intelligibility
@@ -37,7 +37,7 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-  - block: research
+  - block: collection
     content:
       items:
         - name: Transport
@@ -55,7 +55,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
-  - block: people
+  - block: features
     id: people
     content:
       title: People
@@ -79,7 +79,7 @@ sections:
         - name: Scarlet Tong
           icon: rectangle-group
           description: Architect, PhD Candidate at HKU
-  - block: featured-pubs
+  - block: cta-image-paragraph
     id: solutions
     content:
       items:
@@ -110,7 +110,7 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: contact
+  - block: testimonials
     content:
       title: Contact
       text: Collaboration, join us, and more
