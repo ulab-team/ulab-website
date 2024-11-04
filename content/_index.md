@@ -31,22 +31,22 @@ sections:
       # For full-screen, add `min-h-screen` below
       css_class: "dark"
       background:
-        color: "beige"
+        color: "navy"
         image:
           # Add your image background to `assets/media/`.
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-  - block: research-areas
+  - block: research
     content:
       items:
-        - area: "Transport"
+        - statistics: "Transport"
           description: |
             Urban rail and health outcomes
-        - area: "Housing"
+        - statistics: "Housing"
           description: |
             Urban renewal and health outcomes
-        - area: "Public space"
+        - statistics: "Public space"
           description: |
             Street experiments for people-centric transition
     design:
