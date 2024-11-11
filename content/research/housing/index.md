@@ -1,7 +1,7 @@
 ---
-title: housing page
-summary: housing is important
-date: 2023-10-23
+title: Urban housing
+summary: housing is important, urban renewal is a forever issue
+date: 2024-11-11
 authors:
   - admin
 tags:

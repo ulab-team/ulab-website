@@ -1,14 +1,14 @@
 ---
-title: ✅ Manage your projects
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
-date: 2023-10-23
+title: Public Space and Streets
+summary: An omnipresent asset of cities
+date: 2024-11-11
 authors:
   - admin
 tags:
   - Hugo Blox
   - Markdown
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Image credit: [**me**]'
 ---
 
 Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
