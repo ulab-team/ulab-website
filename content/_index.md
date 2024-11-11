@@ -1,6 +1,6 @@
 ---
 title: 'uLab'
-date: 2023-10-24
+date: 2024-10-24
 type: landing
 
 design:
@@ -12,44 +12,42 @@ sections:
     content:
       title: Urban Analytics and Interventions Research Lab
       text: A research lab advancing urban intelligibility
-      primary_action:
-        text: Enter lab
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
-      secondary_action:
-        text: About us
-        url: https://docs.hugoblox.com
-      announcement:
-        text: "Transferred from a HKUrbanLab"
-        link:
-          text: "Read more"
-          url: "/blog/"
+
     design:
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
       # For full-screen, add `min-h-screen` below
-      css_class: "dark"
+      css_class: ""
       background:
-        color: "navy"
+        color: ""
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: ""
           filters:
             brightness: 0.5
+
+
+  - block: markdown
+    content:
+      title: About Us
+      subtitle: A policy research led by Dr Guibo Sun
+      text: Placeholder. I want to add an image on the left and text on the right
+
+
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: research directions
       subtitle: ''
-      text: 'Check out my recent blog posts below!'
+      text: 'these are our major research directions'
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 3
       # Filter on criteria
       filters:
         # The folders to display content from
         folders:
-          - post
+          - resdir
         author: ""
         category: ""
         tag: ""
