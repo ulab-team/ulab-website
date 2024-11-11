@@ -7,8 +7,6 @@ authors:
 tags:
   - Hugo Blox
   - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
