@@ -1,12 +1,14 @@
 ---
-title: Housing - Urban Renewal
-summary: We study the state of the art housing issues in Hong Kong and international cases
+title: housing page
+summary: housing is important
+date: 2023-10-23
 authors:
   - admin
 tags:
-  - ""
-  - ""
-date: ""
+  - Hugo Blox
+  - Markdown
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
