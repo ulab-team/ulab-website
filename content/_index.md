@@ -67,31 +67,24 @@ sections:
       view: card
       columns: '3'
 
-  - block: features
-    id: people
-    content:
-      title: People
-      text: Our members come from diverse backgrounds and are united by URBAN
-      items:
-        - name: Dr Guibo Sun
-          image: 
-            filename: tn.png
-          description: ULab principle investigator, leading academic, PhD (CUHK)
-        - name: Dr Jieun Lee
-          icon: bolt
-          description: Urban economist, Postdoc Fellow at HKU
-        - name: Dr Kristen Zhao
-          icon: sparkles
-          description: Urban researcher, Postdoc Fellow at HKU
-        - name: Dr Yao Du
-          icon: code-bracket
-          description: Social scientist, Postdoc Fellow at HKU
-        - name: Dongsheng He
-          icon: star
-          description: Urban researcher, PhD Candidate at HKU
-        - name: Scarlet Tong
-          icon: rectangle-group
-          description: Architect, PhD Candidate at HKU
+  - block: people
+    content: This is the content
+      title: Meet the Team
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Principal Investigators
+          - Affiliated Researchers
+          - Affiliated PhD Students
+          - Administration
+          - Visitors
+      sort_by: Params.last_name
+      sort_ascending: true
+    design:
+      show_interests: false
+      show_role: true
+      show_social: true
+
   - block: cta-image-paragraph
     id: solutions
     content:
