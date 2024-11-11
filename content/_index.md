@@ -47,7 +47,7 @@ sections:
       filters:
         # The folders to display content from
         folders:
-          - resdir
+          - research
         author: ""
         category: ""
         tag: ""
