@@ -1,6 +1,11 @@
 ---
 title: Housing - Urban Renewal
 summary: We study the state of the art housing issues in Hong Kong and international cases
+authors:
+  - admin
+tags:
+  - ""
+  - ""
 date: ""
 
 # Featured image
