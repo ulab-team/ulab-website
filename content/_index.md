@@ -42,7 +42,7 @@ sections:
       subtitle: ''
       text: 'these are our major research directions'
       # Choose how many pages you would like to display (0 = all pages)
-      count: 3
+      count: 0
       # Filter on criteria
       filters:
         # The folders to display content from
@@ -65,7 +65,10 @@ sections:
     design:
       # Choose a listing view
       view: card
-  - block: features
+      columns: '3'
+
+
+- block: features
     id: people
     content:
       title: People
