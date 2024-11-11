@@ -28,15 +28,21 @@ sections:
             brightness: 0.5
 
 
-  - block: markdown
+  - block: cta-image-paragraph
+    id: about
     content:
-      title: About Us
-      subtitle: A policy research led by Dr Guibo Sun
-      text: Placeholder. I want to add an image on the left and text on the right
+      items:
+        - title: About us
+          text: A policy research led by Dr Guibo Sun. dsggf srtrt sdfd ytygfd aerth gfdrgre.
+          # Upload image to `assets/media/` and reference the filename here
+          image: bg3.jpg
+          button:
+            text: More info
+            url: about/
 
 
   - block: collection
-    id: posts
+    id: res
     content:
       title: research directions
       subtitle: ''
@@ -67,23 +73,9 @@ sections:
       view: card
       columns: '3'
 
-  - block: people
-    content: 
-      title: Meet the Team
-      # Choose which groups/teams of users to display.
-      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-      user_groups:
-          - Principal Investigators
-          - Affiliated Researchers
-          - Affiliated PhD Students
-          - Administration
-          - Visitors
-      sort_by: Params.last_name
-      sort_ascending: true
-    design:
-      show_interests: false
-      show_role: true
-      show_social: true
+  - block: markdown
+    id: people
+
 
   - block: cta-image-paragraph
     id: solutions
@@ -116,30 +108,5 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: Contact
-      text: Collaboration, join us, and more
-      items:
-        - name: Guibo
-          role: "Director and PI"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          email: ulab.partners@gmail.com
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-  - block: cta-card
-    content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+
 ---
