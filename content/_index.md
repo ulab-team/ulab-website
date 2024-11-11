@@ -74,8 +74,9 @@ sections:
       text: Our members come from diverse backgrounds and are united by URBAN
       items:
         - name: Dr Guibo Sun
-          icon: magnifying-glass
-          description: ULab principle investigator, leading academic
+          image: 
+            filename: tn.png
+          description: ULab principle investigator, leading academic, PhD (CUHK)
         - name: Dr Jieun Lee
           icon: bolt
           description: Urban economist, Postdoc Fellow at HKU
