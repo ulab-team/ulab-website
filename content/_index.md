@@ -65,7 +65,7 @@ sections:
     design:
       # Choose a listing view
       view: card
-      columns: '3'
+      #columns: '3'
 
 
 - block: features
