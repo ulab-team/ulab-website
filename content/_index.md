@@ -65,8 +65,9 @@ sections:
     design:
       # Choose a listing view
       view: card
-      
-- block: features
+      columns: '3'
+
+  - block: features
     id: people
     content:
       title: People
